@@ -1,14 +1,6 @@
 (function() {
 var url=window.location!=window.parent.location?document.referrer:document.location;
-if(url != 'https://kbhgames.com/'){
-	
 
-	if(Math.random() < 0.5){
-	window.document.body.insertAdjacentHTML( 'beforeend','<div id="playmore"><a href="https://kbhgames.com/tag/friday-night-funkin" target="_blank">Play More Games &#187;</a></div>');
-		
-	}else{
-	window.document.body.insertAdjacentHTML( 'afterbegin','<div id="playmore"><a href="https://kbhgames.com/tag/friday-night-funkin" target="_blank">Play More Games &#187;</a></div>');
-	}
 	
 			
 document.getElementById("openfl-content").style.height = "calc(100% - 28px)";
