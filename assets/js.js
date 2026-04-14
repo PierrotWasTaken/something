@@ -36,12 +36,7 @@ var x = setInterval(function() {
 
 
 
-if(
-url == 'https://www.fridaynightfunkin.net/' 
-|| url == 'https://www.pgr.gg/'
-|| url == 'https://www.mcpe117.com/'
-|| url == 'https://files.kbh.games/'
-){
+if(true == true){
 document.body.style.background = "white";
 			 document.body.innerHTML = '<div id="playmore" style="text-align: center;width: 100%;display: flex; height: 90vh;align-content: center;align-items: center;justify-content: center;flex-wrap: nowrap;color:#000"><h1><a href="https://kbhgames.com/tag/friday-night-funkin" target="_top">KBH Games</a><h1></div><p style="text-align:center:color:#000">This site Trying repetitively to hide credits link,  not cool. So you lost the privilege to iframe from kbhgames server.</p>';
 
